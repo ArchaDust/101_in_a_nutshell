@@ -15,10 +15,6 @@ typedef struct		s_tetri
 
 t_tetri				*ft_parse_it(int fd);
 
-int					ft_open_it(const char *f);
-
-void				ft_close_it(int fd);
-
 void				ft_clean_it(t_tetri *lst);
 
 int					ft_check_it(t_tetri *lst);
